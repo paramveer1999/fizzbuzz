@@ -16,4 +16,13 @@ public class FizzBuzzTest {
         
 
     }
+	@Test
+    public void function1(){
+
+        FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+
+        Assert.assertEquals("7", fizzBuzz.convert(7));
+        
+
+    }
 }
