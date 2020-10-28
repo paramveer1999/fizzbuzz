@@ -25,16 +25,5 @@ public class FizzBuzzTest {
         
 
     }
-	@Test
-    public void function2(){
-
-        FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
-
-        for(int i=1;i<=100;i++)
-	{
-		System.out.pintln(fizzBuzz.convert(i));
-	}
-        
-
-    }
+	
 }
